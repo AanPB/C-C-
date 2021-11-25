@@ -1,10 +1,27 @@
-- 👋 Hi, I’m Aan
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#include<stdio.h>
+#include<conio.h>
 
-<!---
-Aan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+main()
+{
+ int aan,b;
+ int hasil;
+ printf("TUGAS UTS\n\n");
+ printf("Nama : Aan Putra Bungsu\n");
+ printf("Npm  : 2020210077\n");
+ printf("===========================\n");
+ for(aan=1; aan<=10; aan+=2)
+ {
+ 	hasil=1;
+ 	for(b=1;b<=aan;b+=2)
+ 	{
+ 		if(b!=1)
+ 		printf("*");
+ 		printf("%i", b);
+ 		hasil*=b;
+	 }
+	 
+printf("=%i\n", hasil);
+}
+printf("==========================");
+getch();
+}
